@@ -134,9 +134,12 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 1 1 0;
-  background-image: url(backgroundImage.jpg);
-  background-size: contain;
+  background: url(backgroundImage.jpg) no-repeat;
+  background-size: cover;
 }
 
 main {
