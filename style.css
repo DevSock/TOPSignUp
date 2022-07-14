@@ -127,3 +127,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+}
+
+header {
+  flex: 1 1 0;
+  background-image: url(backgroundImage.jpg);
+  background-size: contain;
+}
+
+main {
+  flex: 2 1 0;
+}
