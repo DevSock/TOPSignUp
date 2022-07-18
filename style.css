@@ -127,6 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
 
 body {
   display: flex;
@@ -140,6 +143,29 @@ header {
   flex: 1 1 0;
   background: url(backgroundImage.jpg) no-repeat;
   background-size: cover;
+}
+
+.logo-container {
+  display: flex;
+  width: 100%;
+  padding: 20px 0px;
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+
+.logo-image {
+  width: 100px;
+  height: 100px;
+}
+
+.logo-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 1rem;
+  font-family: "Dancing Script", cursive;
 }
 
 main {
