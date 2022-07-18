@@ -168,6 +168,19 @@ header {
   font-family: "Dancing Script", cursive;
 }
 
+.photo-credits {
+  margin-top: auto;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+}
+
+.photo-credits a {
+  color: #fff;
+}
+
 main {
   flex: 2 1 0;
 }
