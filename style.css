@@ -145,7 +145,7 @@ header {
   background-size: cover;
 }
 
-.logo-container {
+.signup-banner {
   display: flex;
   width: 100%;
   padding: 20px 0px;
@@ -155,12 +155,12 @@ header {
   background-color: hsla(0, 0%, 0%, 0.5);
 }
 
-.logo-image {
+.signup-banner-logo {
   width: 100px;
   height: 100px;
 }
 
-.logo-text {
+.lsignup-banner-text {
   font-size: 3rem;
   font-weight: bold;
   color: #fff;
