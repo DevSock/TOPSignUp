@@ -131,6 +131,10 @@ table {
 /* ////////////////////////////////////// */
 /* ////////////////////////////////////// */
 
+em {
+  font-style: italic;
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -182,5 +186,19 @@ header {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   flex: 2 1 0;
+  justify-content: center;
+  gap: 25px;
+  font-family: "Kanit", sans-serif;
+}
+
+.header {
+  padding-left: 50px;
+  font-size: 2rem;
+}
+
+.header p {
+  padding: 25px 0px;
 }
