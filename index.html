@@ -36,17 +36,17 @@
                 <fieldset class="fieldset">
                     <div class="input">
                         <label for="firstname">First Name</label>
-                        <input type="text" placeholder="Thor" name="firstname" id="firstname">
+                        <input type="text" placeholder="Thor" name="firstname" id="firstname" required>
                     </div>
                     <div class="input">
                         <label for="lastname">Last Name</label>
-                        <input type="text" placeholder="Odinson" name="lastname" id="lastname">
+                        <input type="text" placeholder="Odinson" name="lastname" id="lastname" required>
                     </div>
                 </fieldset>
                 <fieldset class="fieldset">
                     <div class="input">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="username@email.com">
+                        <input type="email" name="email" id="email" placeholder="username@email.com" required>
                     </div>
                     <div class="input">
                         <label for="tel">Phone Number</label>
@@ -56,11 +56,13 @@
                 <fieldset class="fieldset">
                     <div class="input">
                         <label for="password">Password</label>
-                        <input type="password" name="password" id="password" placeholder="••••••••">
+                        <input type="password" name="password" id="password" placeholder="••••••••" required
+                            minlength="8">
                     </div>
                     <div class="input">
                         <label for="password-confirm">Confirm Password</label>
-                        <input type="password" name="password-confirm" id="password-confirm" placeholder="••••••••">
+                        <input type="password" name="password-confirm" id="password-confirm" placeholder="••••••••"
+                            required minlength="8">
                     </div>
             </form>
         </div>
