@@ -32,23 +32,36 @@
         </section>
         <div class="form-container">
             <form class="form" action="#" method="post">
-                <fieldset class="name">
-                    <label for="firstname">First Name</label>
-                    <input type="text" placeholder="Thor" name="firstname" id="firstname">
-                    <label for="lastname">Last Name</label>
-                    <input type="text" placeholder="Odinson" name="lastname" id="lastname">
+                <legend class="legend">Tell Us About Yourself!</legend>
+                <fieldset class="fieldset">
+                    <div class="input">
+                        <label for="firstname">First Name</label>
+                        <input type="text" placeholder="Thor" name="firstname" id="firstname">
+                    </div>
+                    <div class="input">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" placeholder="Odinson" name="lastname" id="lastname">
+                    </div>
                 </fieldset>
-                <fieldset class="contact">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="username@email.com">
-                    <label for="tel">Phone Number</label>
-                    <input type="tel" name="tel" id="tel" placeholder="+1(800)-783-2637">
+                <fieldset class="fieldset">
+                    <div class="input">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="username@email.com">
+                    </div>
+                    <div class="input">
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" name="tel" id="tel" placeholder="+1(800)-783-2637">
+                    </div>
                 </fieldset>
-                <fieldset class="password">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" placeholder="••••••••">
-                    <label for="password-confirm">Confirm Password</label>
-                    <input type="password" name="password-confirm" id="password-confirm" placeholder="••••••••">
+                <fieldset class="fieldset">
+                    <div class="input">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="••••••••">
+                    </div>
+                    <div class="input">
+                        <label for="password-confirm">Confirm Password</label>
+                        <input type="password" name="password-confirm" id="password-confirm" placeholder="••••••••">
+                    </div>
             </form>
         </div>
         <button type="button" id="submit">Create Account</button>
