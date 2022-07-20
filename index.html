@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="signup-header">
         <div class="signup-banner">
             <img src="logo.png" alt="The Odin Project Logo" class="signup-banner-logo">
             <h1 class="signup-banner-text">Sign Up</h1>
@@ -24,12 +24,12 @@
                 href="https://unsplash.com/photos/WSU7HiKFqPo">Unsplash</a></p>
     </header>
     <main>
-        <section class="header">
-            <h2 class="main-header">Welcome to this totally legit looking fake service! Enter your information
+        <header class="main-header">
+            <h2 class="header-text">Welcome to this totally legit looking fake service! Enter your information
                 <em>now</em> and click submit to gain absolutely nothing!
             </h2>
             <p>What an <em><u>amazing</u></em> deal!</p>
-        </section>
+        </header>
         <div class="form-container">
             <form class="form" action="#" method="post">
                 <legend class="legend">Tell Us About Yourself!</legend>
@@ -64,8 +64,10 @@
                     </div>
             </form>
         </div>
-        <button type="button" id="submit">Create Account</button>
-        <p>Already have an account? <a href="#">Log in</a></p>
+        <footer class="main-footer">
+            <button type="button" id="submit" class="submit">Create Account</button>
+            <p class="alt-login">Already have an account? <a href="#">Log in</a></p>
+        </footer>
     </main>
 </body>
 
