@@ -202,3 +202,39 @@ main {
 .header p {
   padding: 25px 0px;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  gap: 20px;
+  box-shadow: 0px 3px 15px -12px;
+}
+
+.legend {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.fieldset {
+  display: flex;
+  gap: 50px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 5px;
+}
+
+.input label {
+  opacity: 70%;
+  font-size: 0.9rem;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  padding: 5px;
+}
