@@ -203,10 +203,16 @@ main {
 }
 
 .main-header em {
-  color: #fbbd81;
+  color: #f0a25d;
 }
 
 .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-container {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -265,12 +271,14 @@ input:focus {
   border-radius: 5px;
   border: 1px solid #ccc;
   padding: 15px 30px;
-  background-color: #fbbd81;
+  background-color: #241c19;
   box-shadow: 0px 3px 15px -12px;
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Kanit", sans-serif;
+  margin-left: 50px;
+  cursor: pointer;
 }
 
 .main-footer a {
