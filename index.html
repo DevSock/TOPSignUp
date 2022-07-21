@@ -30,8 +30,8 @@
             </h2>
             <p>What an <em><u>amazing</u></em> deal!</p>
         </header>
-        <div class="form-container">
-            <form id="form" class="form" action="" method="post">
+        <form id="form" class="form" action="" method="post">
+            <div class="input-container">
                 <legend class="legend">Create Your Account.</legend>
                 <fieldset class="fieldset">
                     <div class="input">
@@ -70,10 +70,14 @@
                     </div>
                 </fieldset>
                 <p class="pw-mismatch" id="pw-mismatch" hidden>* Passwords must match</p>
-            </form>
-        </div>
+            </div>
+            <fieldset>
+                <div class="input">
+                    <button type="submit" id="submitBtn" class="submitBtn">Create Account</button>
+                </div>
+            </fieldset>
+        </form>
         <footer class="main-footer">
-            <button type="submit" form="form" id="submitBtn" class="submitBtn">Create Account</button>
             <p class="alt-login">Already have an account? <a href="#">Log in</a></p>
         </footer>
     </main>
