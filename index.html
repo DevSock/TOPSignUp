@@ -57,12 +57,16 @@
                     <div class="input">
                         <label for="password">Password</label>
                         <input type="password" name="password" id="password" placeholder="••••••••" required
-                            minlength="8">
+                            minlength="8"
+                            oninvalid="this.setCustomValidity('Password must be at least 8 characters long')"
+                            oninput="this.setCustomValidity('')">
                     </div>
                     <div class="input">
                         <label for="password-confirm">Confirm Password</label>
                         <input type="password" name="password-confirm" id="password-confirm" placeholder="••••••••"
-                            required minlength="8">
+                            required minlength="8"
+                            oninvalid="this.setCustomValidity('Password must be at least 8 characters long')"
+                            oninput="this.setCustomValidity('')">
                     </div>
             </form>
         </div>
